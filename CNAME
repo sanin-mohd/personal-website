@@ -1,1 +1,7 @@
-mohamedsaneen.com
+cd [PROJECT-DIRECTORY]
+git pull origin A
+git checkout gh-pages
+echo "mohamedsaneen.com" > CNAME
+git add CNAME
+git commit -m "Added CNAME for GitHub Pages"
+git push
