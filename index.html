@@ -125,7 +125,7 @@
                         <img src="w.jpg" class="card-img-top" alt="..." style="border-top-left-radius: 30px;border-top-right-radius: 30px;">
                         <div class="card-body" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">
                           <h5 class="card-title ">Web Development</h5>
-                          <p class="card-text text-muted" >Node.js Node-express hbs Mongodb Html CSS Jquery Bootstrap</p>
+                          <p class="card-text text-muted" >Node.js Express Handlebars Mongodb Html CSS Jquery Bootstrap Ajax</p>
                           
                           
                           
@@ -139,7 +139,7 @@
                       <img src="coding.jpg" class="card-img-top" alt="..." style="border-top-left-radius: 30px;border-top-right-radius: 30px;">
                       <div class="card-body" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">
                         <h5 class="card-title ">Programming</h5>
-                        <p class="card-text text-muted" >C C++ <br>Python Java</p>
+                        <p class="card-text text-muted" >Java <br>Python C++<br>JavaScript</p>
                         
                         
                         
@@ -154,7 +154,7 @@
                         <img src="s.jpg" class="card-img-top" alt="..." style="border-top-left-radius: 30px;border-top-right-radius: 30px;">
                         <div class="card-body" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">
                           <h5 class="card-title">Stock market</h5>
-                          <p class="card-text text-muted">F&O and Equity trading<br>Long term investment</p>
+                          <p class="card-text text-muted">F&O and Equity trading<br>Long term investment<br>Option Selling</p>
                           
                           
                         </div>
@@ -167,7 +167,7 @@
                         <img src="d.jpg" class="card-img-top" alt="..." style="border-top-left-radius: 30px;height: 134px; border-top-right-radius: 30px;">
                         <div class="card-body" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">
                           <h5 class="card-title">Business Partner</h5>
-                          <p class="card-text text-muted">Grow your Business with me <br> Sales and marketing</p>
+                          <p class="card-text text-muted">Grow your Business with me <br> Sales and marketing<br>Strategic Planning</p>
                           
                           
                         </div>
@@ -265,100 +265,92 @@
         <div class="row">
           <div class="col-md-12">
             <!--Section: Contact v.2-->
-<section class="mb-4" id="contact-section">
+<section class="mb-4">
 
   <!--Section heading-->
-  <h2 class="h1-responsive font-weight-bold text-center my-4" style="font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;color: rgb(236, 105, 96);font-size: x-large;">Contact us</h2>
+  <h2 class="h1-responsive font-weight-bold text-center my-4" style="font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;color: rgb(236, 105, 96);font-size: x-large;">Contact me</h2>
   <!--Section description-->
-  
-  <p class="text-center w-responsive mx-auto mb-5">Do you need my help? Please do not hesitate to contact me directly. My team will come back to you within
+  <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact me directly. my team will come back to you within
       a matter of hours to help you.</p>
 
   <div class="row">
 
       <!--Grid column-->
       <div class="col-md-9 mb-md-0 mb-5">
-          
-          <form id="contact-form" method="post" action="contact.php" role="form">
+          <form id="contact-form" name="contact-form" action="mail.php" method="POST">
 
-            <div class="messages"></div>
-        
-            <div class="controls">
-        
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="form_name">Firstname *</label>
-                            <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
-                            <div class="help-block with-errors"></div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="form_lastname">Lastname *</label>
-                            <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
-                            <div class="help-block with-errors"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="form_email">Email *</label>
-                            <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
-                            <div class="help-block with-errors"></div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="form_need">Please specify your need *</label>
-                            <input id="form_need" type="text" name="need" class="form-control" placeholder="Title" required="required" data-error="Please specify your need.">
-                                
-                            </select>
-                            <div class="help-block with-errors"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="form-group">
-                            <label for="form_message">Message *</label>
-                            <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
-                            <div class="help-block with-errors"></div>
-                        </div>
-                    </div>
-                    <div class="col-md-12">
-                        <input type="submit" class="btn btn-success btn-send" value="Send message">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <p class="text-muted">
-                            <strong>*</strong> These fields are required
-                        </p>
-                    </div>
-                </div>
-            </div>
-        
-        </form>
+              <!--Grid row-->
+              <div class="row">
 
-          
+                  <!--Grid column-->
+                  <div class="col-md-6">
+                      <div class="md-form mb-0">
+                          <input type="text" id="name" name="name" class="form-control">
+                          <label for="name" class="">Your name</label>
+                      </div>
+                  </div>
+                  <!--Grid column-->
+
+                  <!--Grid column-->
+                  <div class="col-md-6">
+                      <div class="md-form mb-0">
+                          <input type="text" id="email" name="email" class="form-control">
+                          <label for="email" class="">Your email</label>
+                      </div>
+                  </div>
+                  <!--Grid column-->
+
+              </div>
+              <!--Grid row-->
+
+              <!--Grid row-->
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="md-form mb-0">
+                          <input type="text" id="subject" name="subject" class="form-control">
+                          <label for="subject" class="">Subject</label>
+                      </div>
+                  </div>
+              </div>
+              <!--Grid row-->
+
+              <!--Grid row-->
+              <div class="row">
+
+                  <!--Grid column-->
+                  <div class="col-md-12">
+
+                      <div class="md-form">
+                          <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                          <label for="message">Your message</label>
+                      </div>
+
+                  </div>
+              </div>
+              <!--Grid row-->
+
+          </form>
+
+          <div class="text-center text-md-left">
+              <a class="btn btn-primary btn-lg" onclick="document.getElementById('contact-form').submit();">Send</a>
+          </div>
+          <div class="status"></div>
       </div>
       <!--Grid column-->
 
       <!--Grid column-->
       <div class="col-md-3 text-center">
           <ul class="list-unstyled mb-0">
-              <li><img src="location.png" style="width: 50px;height: 50px;">
-                  <p>Thenhipalam, 673636, Kerala</p>
+              <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                  <p>Calicut,Kerala</p>
               </li>
 
-              <li><img src="mobile.png" style="width: 50px;height: 50px;" >
-                  <p>+ 91 8301868891</p>
+              <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                  <p>+918301868891</p>
               </li>
 
-              <li><img src="gmail.png" style="width: 50px;height: 50px;">
-                  <p>sanin.nitcalicut.ece@gmail.com</p>
+              <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                  <p>sanin.nitcalicut.ece.com</p>
               </li>
           </ul>
       </div>
